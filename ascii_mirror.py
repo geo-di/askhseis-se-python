@@ -11,7 +11,7 @@ for i in f:
     mirrored.append(chr(128 - ord(i)))
 mirrored.reverse()
 
-# ektupwnei
+# printing
 print("As a list: ", mirrored)
 mirrored = "".join(mirrored)
 print("As a string: ")
